@@ -1,0 +1,4 @@
+local hum = script.Parent:WaitForChild("Humanoid") -- Find the Humanoid
+local anim = hum:LoadAnimation(script:FindFirstChildOfClass("Animation")) -- It finds anything inside of the script that is "Animation" and loads it.
+anim.Looped = true -- If your animation is not looped, you can loop it like this.
+anim:Play()
